@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Java",
+        "icon": "java",
+        "color": "text-indigo-950"
+    },
+
+    {
+        "name": "SpringBoot",
+        "icon": "springboot",
+        "color": "text-lime-500"
+    },
+
+    {
+        "name": "Hibernate",
+        "icon": "hibernate",
+        "color": "text-yellow-600"
+    }, 
+
+    {
+        "name": "Docker",
+        "icon": "docker",
+        "color": "text-sky-400"
+    },
+
+    {
+        "name": "Kubernetes",
+        "icon": "kubernetes",
+        "color": "text-blue-500"
+    },
+
+     {
+        "name": "AWS",
+        "icon": "aws",
+        "color": "text-black"
+    },
+
+    {
+        "name": "Kafka",
+        "icon": "kafka",
+         "color": "text-orange-600"
+    }, 
+
+    {
+        "name": "PostgreSQL",
+        "icon": "postgresql",
+         "color": "text-cyan-700"
+    },
+
+    {
+        "name": "Git",
+        "icon": "git",
+         "color": "text-orange-600"
+    },
+
+    {
+        "name": "GitHub Actions",
+        "icon": "githubActions",
+         "color": "text-blue-950"
+    }
+   
+]

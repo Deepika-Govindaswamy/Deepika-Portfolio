@@ -1,0 +1,13 @@
+[
+    {
+        "designation" : "Software Engineer Intern",
+        "company_name": "Igarashi Motors India Ltd",
+        "duration": "July 2022 - August 2022",
+        "location": "Chennai, India",
+        "intern_description": [
+            "Collaborated in a 6-member team to delivered a Spring Boot based Incident Management System that lowered service downtime by 30%.",
+            "Reduced time to resolution by 20% by implementing severity-based prioritization and centralized incident logging.",
+            "Improved feature delivery speed by 15% by actively participating in cross-functional Agile sprints, refining backlogs, and improving sprint planning efficiency."
+        ]
+    }
+]

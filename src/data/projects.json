@@ -1,0 +1,115 @@
+[
+    {
+        "title": "Stock Portfolio Analysis",
+        "techstack": ["Spring Boot", "Hibernate", "PostgreSQL", "Docker", "FastAPI", "OpenAPI", "ReactJS"],
+        "intro": "An investor-centric portfolio management system that allows investors to create and manage a portfolio, perform Risk Analysis and AI-based summarization on portfolio for decision making.",
+        "detailedDescription": {
+
+            "introDescription" : [
+                "The Stock Portfolio Analysis System is a fintech-oriented, microservices-based software platform designed to assist investors in understanding, evaluating, and managing stock portfolios through data-driven insights and quantitative risk analysis. The system provides users with real-time portfolio valuation, risk exposure metrics, and diversification insights without attempting speculative price prediction, thereby aligning with regulatory-compliant and responsible financial analytics principles.", 
+                "The platform adopts a service-oriented architecture, separating core portfolio management and transaction handling from advanced analytical and AI-driven risk computation. This architectural choice improves scalability, maintainability, and extensibility, enabling independent evolution of financial logic and analytical models.",
+                "Modern retail investors often face significant challenges in interpreting portfolio performance beyond superficial metrics such as total return. Existing tools tend to focus heavily on price prediction or historical charts, offering limited transparency into risk exposure, diversification quality, and structural portfolio weaknesses."
+            ],
+
+            "problemsAddressed": [
+                "The lack of actionable risk insights for non-institutional investors is a key issue that is addressed by this software.",
+                "Poor separation of analytics and transactional logic in monolithic systems, makes the system inefficient to scale. This is addressed by implementing the microservices architecture.",
+                "Over-reliance on stock performance forecasting, which can mislead users"
+            ],
+            "techstack": "Java 17 • Spring Boot • Hibernate • PostgreSQL • Docker • Microservices • Python • FastAPI • K-Means Clustering • OpenAPI • Statistical risk metrics (Volatility and Index comparison) • ReactJS",
+            "results": [
+                "30% reduction in backend response latency through SQL query optimisation and efficient data access patterns (Query optimisation using EXPLAIN ANALYSE for performance tuning)", 
+                "45% improvement in decision-making accuracy, achieved by introducing AI-driven clustering and volatility-based diversification insights.", 
+                "Improved system scalability and maintainability, achieved through microservices architecture and decoupled analytics services."
+            ]
+        },
+        "githubLink": "https://github.com/Deepika-Govindaswamy/stock-portfolio-analysis",
+        "image": "stockPortfolio"
+    },
+
+    {
+        "title": "FX-Playground",
+        "techstack": ["Spring Boot", "Hibernate", "PostgreSQL", "Spring Cloud", "Docker", "ReactJS", "Stripe API", "WiseAPI"],
+        "intro": "A Forex Transaction Simulator developed in a microservices architecture to simulate the lifecycle of real-world foreign exchange (FX) transactions for learning. ",
+        "detailedDescription": {
+
+            "introDescription" : [
+                "FX-Playground is a microservices-based web application designed to simulate real-world foreign exchange (FX) transactions in a controlled, educational environment.",
+                "The platform models how wallet funding, currency conversion, quoting, payment verification, and balance updates occur in modern fintech systems—without executing real trades or holding real funds. The system mirrors the core mechanics used by retail forex platforms, including multi-currency wallets, exchange rate quoting, transaction approval flows, and post-settlement balance updates."
+            ],
+
+            "problemsAddressed": [
+                "Real FX systems are highly abstracted; This system is a hands-on system design implementation of FX Systems.",
+                "Most learning resources focus on trading strategies, not system design of FX systems.",
+                "Demonstrating how payments and FX transactions interact."
+            ],
+            "techstack": "Java 17 • Spring Boot • Hibernate • PostgreSQL • Docker • Microservices • Stripe API • ReactJS",
+            "results": [
+                "Improved fault tolerance by 60% through validation, ownership checks, and status verification logic",
+                "Reduced system coupling upto 30% by implementing clear separation of cross-services",
+                "40% faster service isolation debugging due to separate databases per microservice"
+            ]
+        },
+        "githubLink": "https://github.com/Deepika-Govindaswamy/FX-Playground",
+        "image": "fxPlayground"
+    },
+
+    {
+        "title": "Remix - E-Waste Recycling B2C",
+        "techstack": ["Spring Boot", "Hibernate", "Spring Security", "MySQL", "VueJS", "StripeAPI", "SwaggerAPI"],
+        "intro": "Remix bridges the real-world gap by transforming the often opaque and informal e-waste disposal experience into a structured, secure, and transparent digital workflow that benefits both users and recycling stakeholders.",
+        "detailedDescription": {
+
+            "introDescription" : [
+                "The Remix is a B2C eWaste Recycling and Data Processing System designed to encouraging individual consumers to submit their end-of-life electronic devices for classification, recycling, resale, or data retrieval services.",
+                "The system bridges the gap between everyday users generating electronic waste (e-waste) and the recycling ecosystem, providing structured workflows for device submission, categorisation, and downstream handling.",
+                "The project emphasises user-centric interaction, responsible disposal practices, and value recovery from used consumer electronics, while ensuring environmental compliance and secure data handling."
+            ],
+
+            "problemsAddressed": [
+                "This system focuses in encouraging individual consumers for submitting e-waste with an easy-to-use portal.",
+                "Formalise e-waste management workflows, minmising manual interference for downstream processing."
+            ],
+            "techstack": "Java 17 • Spring Boot • Spring Security • Hibernate • MySQL • Agile • Scrum • VueJS • StripeAPI • VueJS",
+            "results": [
+                "35% reduction in recycling processing time by automating owner-recycler communications using QR-driven traceability workflows", 
+                "Achieved a 45% increase of integration speed by delivering a fully documented RestAPIs using Swagger.", 
+                "Reduction in manual payment confirmation by 60% by implementing automated payment confirmation emails."
+            ]
+        },
+        "githubLink": "https://github.com/Deepika-Govindaswamy/eWaste-Recycling-B2C",
+        "image": "ewaste"
+    },
+
+    {
+        "title": "Distributed Payment Processing Pipeline",
+        "techstack": ["Spring Boot", "Hibernate", "PostgreSQL", "Kafka", "Docker", "StripeAPI", "ReactJS"],
+        "intro": "A scalable payment orchestration service that implements a Kafka producer-consumer to queue the request, Spring Boot to process & trigger Stripe payment, and update transaction status.",
+        "detailedDescription": {
+
+            "introDescription" : [
+                "The Distributed Payment Processing Pipeline demonstrates a production-grade approach to handling financial transactions using microservices, event-driven architecture, and external payment orchestration.",
+                "By decoupling payment initiation from execution, the system achieves high scalability, resilience, and consistency—key requirements for modern fintech platforms.",
+                "This project aims to simulate the real-world payment system design patterns used in enterprise environments and showcases advanced backend engineering skills, including Kafka-based messaging, idempotency design, asynchronous workflows, and secure third-party integration."
+            ],
+
+            "problemsAddressed": [
+                "Poor fault tolerance for slow or unavailable services are handled by implementing event-driven request queueing and processing using Kafka ",
+                "Limited scalability under concurrent traffic - addressed by horizontal scaling of gateway and processor independently",
+                "Duplicate transactions - handled by introducing idempotent transaction handling"
+            ],
+            "techstack": "Java 17 • Spring Boot • Hibernate • PostgreSQL • Docker • Microservices • Kafka • StripeAPI • ReactJS",
+            "results": [
+                "Achieved 100% PCI compliance by never handling raw card details in backend services.",
+                "50% increase in throughput under concurrent load by decoupling gateway and payment processor.",
+                "Improved system scalability and maintainability, achieved through microservices architecture and Kafka Queues."
+            ]
+        },
+        "githubLink": "https://github.com/Deepika-Govindaswamy/Payment-Microservice",
+        "image": "payment"
+    }
+
+]
+
+
+
