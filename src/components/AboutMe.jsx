@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { CodeXml, GraduationCap, FolderCode } from 'lucide-react';
 import {
   SiSpringboot,
@@ -28,6 +29,7 @@ export default function AboutMe ({skills}) {
     githubActions: SiGithubactions
   };
 
+  const navigate = useNavigate()
 
   return (
     <div className="bg-white px-4 py-12 sm:px-6 lg:px-8 min-h-screen h-screen flex flex-col">
@@ -69,7 +71,8 @@ export default function AboutMe ({skills}) {
               </div>
 
               {/* Education Card */}
-              <div className="rounded-2xl border border-gray-300 p-6 transition-all hover:shadow-lg w-2/3 sm:w-53">
+              <div onClick={() => navigate('/qualification')}
+                className="rounded-2xl border border-gray-300 p-6 transition-all hover:shadow-lg w-2/3 sm:w-53 cursor-pointer">
                 <div className="mb-4 text-gray-700">
                   <GraduationCap className="h-8 w-8" strokeWidth={1.5} />
                 </div>
@@ -80,7 +83,8 @@ export default function AboutMe ({skills}) {
               </div>
 
               {/* Projects Card */}
-              <div className="rounded-2xl border border-gray-300 p-6 transition-all hover:shadow-lg w-2/3 sm:w-53">
+              <div onClick={() => navigate('/projects')}
+              className="rounded-2xl border border-gray-300 p-6 transition-all hover:shadow-lg w-2/3 sm:w-53 cursor-pointer">
                 <div className="mb-4 text-gray-700">
                   <FolderCode className="h-8 w-8" strokeWidth={1.5} />
                 </div>

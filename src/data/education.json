@@ -1,16 +1,22 @@
 [
     {
-        "course": "Master's in Advanced Computer Science",
+        "side": "left",
+        "type": "education",
+        "title": "Master's in Advanced Computer Science",
         "institution": "The University of Sheffield, UK",
-        "academic_years": "2024-2025",
-        "coursework": ["Software development", "Software Reengineering", "OOP and Design", "Machine Learning, Text Processing", "Natural Language Processing."]
+        "period": "2024-2025",
+        "description": ["Software development", "Software Reengineering", "OOP and Design", "Machine Learning, Text Processing", "Natural Language Processing."]
     },
 
+    
+
     {
-        "course": "Bachelor's in Computer Science & Engineering",
+        "side": "left",
+        "type": "education",
+        "title": "Bachelor's in Computer Science & Engineering",
         "institution": "Sri Venkateswara College of Engineering, India",
-        "academic_years": "2020-2024",
-        "coursework": ["Data Structures and Algorithms","Artificial Intelligence", "Machine Learning and Algorithms", 
+        "period": "2020-2024",
+        "description": ["Data Structures and Algorithms","Artificial Intelligence", "Machine Learning and Algorithms", 
                         "Business Intelligence", "Software Development Methodolgy."]
     }
 ]
